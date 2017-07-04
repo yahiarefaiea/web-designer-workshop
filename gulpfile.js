@@ -23,7 +23,6 @@ var gulp = require('gulp'),
     css = 'stylesheets',
     js = 'javascripts',
     img = 'images',
-    fonts = 'fonts',
     
     //  BANNER COMMENT
     comment =
@@ -97,13 +96,6 @@ gulp.task('stylus', function() {
 });
 
 
-//  FONTS
-gulp.task('fonts', function() {
-  return gulp.src(root+'/fonts/**/*')
-    .pipe(gulp.dest(dest+'/'+assets+'/'+fonts));
-});
-
-
 //  IMAGES
 gulp.task('img', function() {
   return gulp.src(root+'/img/**/*')
@@ -123,18 +115,17 @@ gulp.task('watch', function() {
   gulp.watch([root+'/pug/**/*', root+'/data/**/*'], ['pug', browserSync.reload]);
   gulp.watch(root+'/babel/**/*', ['babel', browserSync.reload]);
   gulp.watch(root+'/stylus/**/*', ['stylus', browserSync.reload]);
-  gulp.watch(root+'/fonts/**/*', ['fonts', browserSync.reload]);
   gulp.watch(root+'/img/**/*', ['img', browserSync.reload]);
 });
 
 
 //  DEFAULT
 gulp.task('default', function() {
-  runSequence(['del', 'pug', 'babel', 'stylus', 'fonts', 'img', 'browserSync', 'watch']);
+  runSequence(['del', 'pug', 'babel', 'stylus', 'img', 'browserSync', 'watch']);
 });
 
 
 //  RELEASE
 gulp.task('release', function() {
-  runSequence(['del', 'pug', 'babel', 'stylus', 'fonts', 'img', 'htaccess']);
+  runSequence(['del', 'pug', 'babel', 'stylus', 'img', 'htaccess']);
 });
