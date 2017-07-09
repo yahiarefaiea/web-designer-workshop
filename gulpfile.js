@@ -67,6 +67,7 @@ gulp.task('pug', function() {
 //  BABEL
 var babelSrc = [
   root+'/babel/lib/jquery-2.2.4.js',
+  root+'/babel/templates/w01.js'
 ];
 gulp.task('babel', function() {
   return gulp.src(babelSrc)
