@@ -1,12 +1,115 @@
 {
-  "s01": "Hi!",
-  "s02": "I’m Yahia",
-  "s03": "A Designer",
-  "s04": "A Developer",
-  "s05": "And an Entrepreneur",
-  "s06": "It’s nice to meet you guys!",
+  "title1": [
+    { "slide": "2-1", "text": "Getting Started as a" },
+    
+    { "slide": "4-1", "text": "The Browser and" }
+  ],
   
-  "s0701": "Getting Started as a",
-  "s0702": "Web Designer",
-  "s0703": "Workshop #1"
+  
+  "title2": [
+    { "slide": "1-1", "text": "Hi!" },
+    { "slide": "1-2", "text": "I’m Yahia" },
+    { "slide": "1-3", "text": "A Designer" },
+    { "slide": "1-4", "text": "A Developer" },
+    { "slide": "1-5", "text": "And an Entrepreneur" },
+    { "slide": "1-6", "text": "It’s nice to meet you guys!" },
+    
+    { "slide": "2-1", "text": "Web Designer" },
+    
+    { "slide": "3-1", "text": "HTML" },
+    
+    { "slide": "4-1", "text": "The Developer" },
+    
+    { "slide": "5-1", "text": "Grouping" },
+    
+    { "slide": "7-1", "text": "Thanks for having me!" }
+  ],
+  
+  
+  "heading1": [
+    { "slide": "2-2", "text": "What are we gonna" },
+    { "slide": "2-6", "text": "The Process of Creating a" }
+  ],
+  
+  
+  "heading2": [
+    { "slide": "2-2", "text": "be taking?" },
+    { "slide": "2-4", "text": "What is Web Design?" },
+    { "slide": "2-5", "text": "Examples" },
+    { "slide": "2-6", "text": "Winning Website" },
+    { "slide": "2-7", "text": "Inspirations" },
+    
+    { "slide": "3-2", "text": "Elements" },
+    { "slide": "3-3", "text": "Attributes" },
+    { "slide": "3-4", "text": "Browser Defaults" },
+    { "slide": "3-5", "text": "Nested Elements" },
+    
+    { "slide": "4-2", "text": "The Browser" },
+    { "slide": "4-3", "text": "The Developer" },
+    { "slide": "4-4", "text": "Comments" },
+    
+    { "slide": "5-2", "text": "Block-Level Elements" },
+    { "slide": "5-3", "text": "Inline-Level Elements" },
+    { "slide": "5-4", "text": "Div and Span" }
+  ],
+  
+  
+  "subtitle": [
+    { "slide": "2-1", "text": "Workshop #1" },
+    
+    { "slide": "3-1", "text": "Hypertext Markup Language" },
+    { "slide": "3-5", "text": "Elements Relationship" }
+  ],
+  
+  
+  "images": [
+    { "slide": "2-3", "source": "nucubuc" },
+    
+    { "slide": "2-6-1", "source": "photoshop" },
+    { "slide": "2-6-2", "source": "brackets" },
+    
+    { "slide": "2-7-1", "source": "cssda" },
+    { "slide": "2-7-2", "source": "dribbble" },
+    { "slide": "2-7-3", "source": "codepen" },
+    { "slide": "2-7-4", "source": "pinterest" },
+    
+    { "slide": "6-1", "source": "google" },
+    { "slide": "6-2", "source": "pocket" },
+    { "slide": "6-3", "source": "slack" },
+    
+    { "slide": "7-2", "source": "yahiarefaiea" },
+    { "slide": "7-3 slide-7-4 slide-7-5 slide-7-6 slide-7-7", "source": "nucubuc" }
+  ],
+  
+  
+  "normal1": [
+    { "slide": "2-3", "text": "This workshop series content is featured by Nucubuc Modeling Agency™" },
+    
+    { "slide": "2-6-1", "text": "Adobe Photoshop" },
+    { "slide": "2-6-2", "text": "Brackets" },
+    
+    { "slide": "2-7-1", "text": "CSS Design Awards" },
+    { "slide": "2-7-2", "text": "Dribbble" },
+    { "slide": "2-7-3", "text": "Codepen" },
+    { "slide": "2-7-4", "text": "Pinterest" },
+    
+    { "slide": "6-1", "text": "Google" },
+    { "slide": "6-2", "text": "Pocket" },
+    { "slide": "6-3", "text": "Slack" },
+    
+    { "slide": "7-2", "text": "Follow me on Twitter for inspirations on:" },
+    { "slide": "7-3", "text": "You can view this workshop series slides on:" },
+    { "slide": "7-4", "text": "This workshop summary and class notes are" },
+    { "slide": "7-5", "text": "Ask me anything or Give me a feedback after" },
+    { "slide": "7-6", "text": "Cheers!" },
+    { "slide": "7-7", "text": "Nucubuc Modeling Agency™" }
+  ],
+  
+  
+  "normal2": [
+    { "slide": "7-2 small", "text": "@yahiarefaiea" },
+    { "slide": "7-3 small", "text": "slides.nucubuc.com/wdw" },
+    { "slide": "7-4", "text": "available on GoogleDocs" },
+    { "slide": "7-5", "text": "the workshop, please..." }
+  ]
 }
