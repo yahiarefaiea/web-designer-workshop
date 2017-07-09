@@ -1,8 +1,13 @@
 {
+  "lang": "en",
+  "dir": "ltr",
+  "title": "Web Designer Workshop",
   "name": "Web-Designer-Workshop",
   "version": "1.0.0",
-  "description": "Getting Started as a Web Designer - Featured by Nucubuc Modeling Agency™",
-  "author": "Nucubuc",
+  "description": "Getting Started as a Web Designer Workshop Series",
+  "featuring": "Featured by Nucubuc Modeling Agency™",
+  "training": "Workshop Series by Yahia Refaiea",
+  "author": "Nucubuc Modeling Agency™",
   "url": "https://slides.nucubuc.com/wdw",
   "license": "MIT",
   "devDependencies": {

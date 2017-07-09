@@ -1,27 +1,27 @@
 doctype html
-html(lang=root.lang, dir=root.dir)
+html(lang=pkg.lang, dir=pkg.dir)
   
-  //##  HEAD  ##
+  //--  HEAD  --
   head
     
-    //  TITLE AND META TAGS
+    //--  TITLE AND META TAGS
     block title
-      title #{root.title}
+      title #{pkg.title}
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(property="og:url", content="https://nucubuc.com/")
+    meta(property="og:image", content="https://nucubuc.com/includes/images/opengraph.png")
     block meta
-      meta(name="description", content=root.description)
-      meta(name="author", content=root.author)
-      meta(property="og:url", content=root.url)
-      meta(property="og:image", content=root.url+"includes/images/opengraph.png")
+      meta(name="description", content=pkg.description+", "+pkg.featuring+", "+pkg.training+".")
+      meta(name="author", content=pkg.author)
     
-    //  INCLUDES
-    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700")
+    //--  INCLUDES
     link(rel="icon", type="image/png", href="includes/images/favicon.png")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700")
     link(rel="stylesheet", href="includes/stylesheets/wdw.lite.css")
     script(src="includes/javascripts/wdw.lite.js")
   
-  //##  BODY  ##
+  //--  BODY  --
   body
     
     //  CONTENT

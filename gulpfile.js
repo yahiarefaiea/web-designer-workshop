@@ -29,6 +29,8 @@ var gulp = require('gulp'),
       '/*\n'+
       ' *  <%= pkg.name %> <%= pkg.version %>\n'+
       ' *  <%= pkg.description %>\n'+
+      ' *  <%= pkg.featuring %>\n'+
+      ' *  <%= pkg.training %>\n'+
       ' *  <%= pkg.url %>\n'+
       ' *  \n'+
       ' *  Last update on: <%= new Date().getUTCFullYear() %>/'+
@@ -56,7 +58,7 @@ gulp.task('pug', function() {
     .pipe(pug({
       pretty: true,
       data: {
-        root: JSON.parse(require('fs').readFileSync(root+'/data/root.json')),
+        pkg: JSON.parse(require('fs').readFileSync('package.json')),
         workshop01: JSON.parse(require('fs').readFileSync(root+'/data/workshop01.json'))
       }
      }))
@@ -67,7 +69,7 @@ gulp.task('pug', function() {
 //  BABEL
 var babelSrc = [
   root+'/babel/lib/jquery-2.2.4.js',
-  root+'/babel/templates/w01.js'
+  root+'/babel/templates/workshop01.js'
 ];
 gulp.task('babel', function() {
   return gulp.src(babelSrc)
