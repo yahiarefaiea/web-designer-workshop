@@ -24,3 +24,10 @@ delta= 1000px
 background= white
 text-dark= #464646
 text-default= #727272
+
+
+//  TRANSITIONS
+duration= .5s
+easing= cubic-bezier(0.190,1.000,0.220,1.000)
+transition(x=1, delay=0, d=0)
+  transition: all ((duration*x)+delay) easing unit(delay+d, 's')
