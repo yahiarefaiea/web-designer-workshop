@@ -9,6 +9,7 @@
   
   
   "title2": [
+    { "slide": "greeting", "text": "Greeting !" },
     { "slide": "1-1", "text": "Hi !" },
     { "slide": "1-2", "text": "I’m Yahia" },
     { "slide": "1-3", "text": "A Designer" },
@@ -17,12 +18,17 @@
     { "slide": "1-6", "text": "It’s nice to meet you guys !" },
     
     { "slide": "2-1", "text": "Web Designer" },
+    { "slide": "birthday", "text": "Happy Birthday !" },
     
     { "slide": "3-1", "text": "HTML" },
+    
+    { "slide": "break", "text": "Time for a Break !" },
     
     { "slide": "4-1", "text": "The Developer" },
     
     { "slide": "5-1", "text": "Grouping" },
+    
+    { "slide": "assignment", "text": "The Assignment" },
     
     { "slide": "7-1", "text": "Thanks for having me !" }
   ],
@@ -30,7 +36,7 @@
   
   "heading1": [
     { "slide": "2-2", "text": "What are we gonna" },
-    { "slide": "2-6", "text": "The Process of Creating a" }
+    { "slide": "2-6--1 slide-2-6--2 slide-2-6--3 slide-2-6--4", "text": "The Process of Creating a" }
   ],
   
   
@@ -38,7 +44,7 @@
     { "slide": "2-2", "text": "be taking ?" },
     { "slide": "2-4", "text": "What is Web Design ?" },
     { "slide": "2-5", "text": "Examples" },
-    { "slide": "2-6", "text": "Winning Website" },
+    { "slide": "2-6--1 slide-2-6--2 slide-2-6--3 slide-2-6--4", "text": "Winning Website" },
     { "slide": "2-7", "text": "Inspirations" },
     
     { "slide": "3-2", "text": "Elements" },
