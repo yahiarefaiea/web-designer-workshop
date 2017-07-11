@@ -1,4 +1,6 @@
 {
+  "title": "Workshop #1 - Web Designer Workshop",
+  
   "title1": [
     { "slide": "2-1", "text": "Getting Started as a" },
     
@@ -7,12 +9,12 @@
   
   
   "title2": [
-    { "slide": "1-1", "text": "Hi!" },
+    { "slide": "1-1", "text": "Hi !" },
     { "slide": "1-2", "text": "I’m Yahia" },
     { "slide": "1-3", "text": "A Designer" },
     { "slide": "1-4", "text": "A Developer" },
     { "slide": "1-5", "text": "And an Entrepreneur" },
-    { "slide": "1-6", "text": "It’s nice to meet you guys!" },
+    { "slide": "1-6", "text": "It’s nice to meet you guys !" },
     
     { "slide": "2-1", "text": "Web Designer" },
     
@@ -22,7 +24,7 @@
     
     { "slide": "5-1", "text": "Grouping" },
     
-    { "slide": "7-1", "text": "Thanks for having me!" }
+    { "slide": "7-1", "text": "Thanks for having me !" }
   ],
   
   
@@ -33,8 +35,8 @@
   
   
   "heading2": [
-    { "slide": "2-2", "text": "be taking?" },
-    { "slide": "2-4", "text": "What is Web Design?" },
+    { "slide": "2-2", "text": "be taking ?" },
+    { "slide": "2-4", "text": "What is Web Design ?" },
     { "slide": "2-5", "text": "Examples" },
     { "slide": "2-6", "text": "Winning Website" },
     { "slide": "2-7", "text": "Inspirations" },
@@ -48,8 +50,8 @@
     { "slide": "4-3", "text": "The Developer" },
     { "slide": "4-4", "text": "Comments" },
     
-    { "slide": "5-2", "text": "Block-Level Elements" },
-    { "slide": "5-3", "text": "Inline-Level Elements" },
+    { "slide": "5-2", "text": "Block - Level Elements" },
+    { "slide": "5-3", "text": "Inline - Level Elements" },
     { "slide": "5-4", "text": "Div and Span" }
   ],
   
@@ -83,7 +85,7 @@
   
   
   "normal1": [
-    { "slide": "2-3", "text": "This workshop series content is featured by Nucubuc Modeling Agency™" },
+    { "slide": "2-3", "text": "This workshop series content is featured by Nucubuc Modeling Agency ™" },
     
     { "slide": "2-6-1", "text": "Adobe Photoshop" },
     { "slide": "2-6-2", "text": "Brackets" },
@@ -97,12 +99,12 @@
     { "slide": "6-2", "text": "Pocket" },
     { "slide": "6-3", "text": "Slack" },
     
-    { "slide": "7-2", "text": "Follow me on Twitter for inspirations on:" },
-    { "slide": "7-3", "text": "You can view this workshop series slides on:" },
+    { "slide": "7-2", "text": "Follow me on Twitter for inspirations on :" },
+    { "slide": "7-3", "text": "You can view this workshop series slides on :" },
     { "slide": "7-4", "text": "This workshop summary and class notes are" },
     { "slide": "7-5", "text": "Ask me anything or Give me a feedback after" },
-    { "slide": "7-6", "text": "Cheers!" },
-    { "slide": "7-7", "text": "Nucubuc Modeling Agency™" }
+    { "slide": "7-6", "text": "Cheers !" },
+    { "slide": "7-7", "text": "Nucubuc Modeling Agency ™" }
   ],
   
   
@@ -110,6 +112,6 @@
     { "slide": "7-2 small", "text": "@yahiarefaiea" },
     { "slide": "7-3 small", "text": "slides.nucubuc.com/wdw" },
     { "slide": "7-4", "text": "available on GoogleDocs" },
-    { "slide": "7-5", "text": "the workshop, please..." }
+    { "slide": "7-5", "text": "the workshop, please ..." }
   ]
 }

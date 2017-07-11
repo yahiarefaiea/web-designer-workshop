@@ -26,8 +26,18 @@ text-dark= #464646
 text-default= #727272
 
 
-//  TRANSITIONS
-duration= .5s
+//  TRANSITION
+step= .03
+pattern= 1.16
+duration= .7s
 easing= cubic-bezier(0.190,1.000,0.220,1.000)
-transition(x=1, delay=0, d=0)
-  transition: all ((duration*x)+delay) easing unit(delay+d, 's')
+
+xTransition(delay=0, d=0)
+  transition: all (duration+delay) easing unit(delay+d, 's')
+
+xtransitionMixin(min, max, d=0)
+  delay= 0
+  for x in min..max
+    delay= (delay+step)*pattern
+    &:nth-child({x})
+      transition: all (duration+delay) easing unit(delay+d, 's')

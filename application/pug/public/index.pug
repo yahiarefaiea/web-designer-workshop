@@ -1,7 +1,10 @@
 extends ../layouts/public
 
+block title
+  title #{workshop01.title}
+
 block content
-  .wrap.workshop#workshop01: .container: .root
+  .wrap.workshop#workshop01(data-slide="slide-0"): .container: .root
     
     //  TITLE1
     #title1

@@ -7,34 +7,54 @@
 
 
 //  ALL
-.workshop #title1,
-.workshop #title2,
-.workshop #heading1,
-.workshop #heading2,
-.workshop #subtitle,
-.workshop #images,
-.workshop #normal1,
-.workshop #normal2
-  position: absolute
+.workshop .root > *
   overflow: hidden
+  position: absolute
   {align}: 0
   width: 100%
-  >*
+  > *
     position: absolute
+    top: 0
     {align}: 0
     width: 100%
-    transition: 1
+    span
+      display: inline-block
+      xTransition()
+    &.active span
+      transform: translateY(0) !important
+      xtransitionMixin: 1, 12, .04
+  img
+    xTransition()
+    &.active
+      xTransition: 0, .04
+
+
+//  SPACING
+.workshop #title1 > * span,
+.workshop #title2 > * span
+  &:not(:last-child)
+    margin-{align-alt}: 15px
+
+.workshop #heading1 > * span,
+.workshop #heading2 > * span
+  &:not(:last-child)
+    margin-{align-alt}: 12px
+
+.workshop #subtitle > * span,
+.workshop #normal1 > * span,
+.workshop #normal2 > * span
+  &:not(:last-child)
+    margin-{align-alt}: 6px
 
 
 //  TITLE
 .workshop #title1,
 .workshop #title2
   height: baseline*4
-  >*
+  > *
     height: baseline*4
-    top: baseline*4
-    &.active
-      top: 0
+    span
+      transform: translateY(baseline*4)
 .workshop #title1
   bottom: baseline*4
 .workshop #title2
@@ -45,11 +65,10 @@
 .workshop #heading1,
 .workshop #heading2
   height: baseline*3
-  >*
+  > *
     height: baseline*3
-    top: baseline*3
-    &.active
-      top: 0
+    span
+      transform: translateY(baseline*3)
 .workshop #heading1
   bottom: baseline*3
 .workshop #heading2
@@ -58,27 +77,26 @@
 
 //  SUBTITLE
 .workshop #subtitle
-  top: 100%
+  bottom: -(baseline*2)
   height: baseline*2
-  >*
+  > *
     height: baseline*2
-    bottom: baseline*2
-    &.active
-      bottom: 0
+    span
+      transform: translateY(-(baseline*2))
 
 
 //  IMAGES
 .workshop #images
+  overflow: visible
   top: 50%
   height: baseline*8
   margin-top: -( (baseline*8/2) + (baseline*2) )
-  >*
+  > img
     display: block
     {align}: 50%
     width: auto
     height: baseline*8
     transform: translateX(-50%)
-    
     top: baseline*2
     opacity: 0
     &.active
@@ -92,11 +110,10 @@
   top: 50%
   height: baseline*2
   text-align: center
-  >*
+  > *
     height: baseline*2
-    top: baseline*2
-    &.active
-      top: 0
+    span
+      transform: translateY(baseline*2)
 .workshop #normal1
   margin-top: baseline*2 + baseline*2
 .workshop #normal2
