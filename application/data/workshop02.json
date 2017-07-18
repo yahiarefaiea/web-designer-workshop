@@ -1,0 +1,100 @@
+{
+  "title": "Workshop #2 - Web Designer Workshop",
+  
+  "title1": [
+    { "slide": "1-1", "text": "Getting Started as a" },
+    
+    { "slide": "3-1", "text": "Basic Path Workout" }
+  ],
+  
+  
+  "title2": [
+    { "slide": "greeting", "text": "Greeting !" },
+    
+    { "slide": "1-1", "text": "Web Designer" },
+    { "slide": "1-2", "text": "HTML" },
+    { "slide": "1-3", "text": "HTML Document Structure" },
+    
+    { "slide": "2-1", "text": "HTML Typography" },
+    { "slide": "2-14", "text": "Inheritance" },
+    
+    { "slide": "break", "text": "Time for a Break !" },
+    
+    { "slide": "3-1", "text": "for the Web" },
+    
+    { "slide": "4-1", "text": "Images" },
+    { "slide": "4-2", "text": "Hyperlinks" },
+    { "slide": "4-3", "text": "Tables" },
+    { "slide": "4-4", "text": "Lists" },
+    
+    { "slide": "assignment", "text": "The Assignment" },
+    
+    { "slide": "5-1", "text": "Thanks for having me !" }
+  ],
+  
+  
+  "heading1": [
+    { "slide": "2-11", "text": "Quotation and" }
+  ],
+  
+  
+  "heading2": [
+    { "slide": "2-2", "text": "Paragraph" },
+    { "slide": "2-3", "text": "Preformatted Text" },
+    { "slide": "2-4", "text": "Headings" },
+    { "slide": "2-5", "text": "Bold and Strong" },
+    { "slide": "2-6", "text": "Italic and Emphasized" },
+    { "slide": "2-7", "text": "Small" },
+    { "slide": "2-8", "text": "Mark" },
+    { "slide": "2-9", "text": "Delete and Insert" },
+    { "slide": "2-10", "text": "Superscript and Subscript" },
+    { "slide": "2-11", "text": "Block Quotation" },
+    { "slide": "2-12", "text": "Abbreviation" },
+    { "slide": "2-13", "text": "Address" },
+    
+    { "slide": "3-2", "text": "File within a project" },
+    { "slide": "3-3", "text": "Link for an online file" },
+    { "slide": "3-4", "text": "URL Explanation" },
+    
+    { "slide": "4-3-1", "text": "Table Simple Structure" },
+    { "slide": "4-3-2", "text": "Table Extended Structure" },
+    { "slide": "4-3-3", "text": "Colspan and Rowspan Attributes" }
+  ],
+  
+  
+  "subtitle": [
+    { "slide": "1-1", "text": "Workshop #1" },
+    { "slide": "1-2", "text": "Hypertext Markup Language" },
+    
+    { "slide": "2-4", "text": "( h1 - h6 )" },
+    
+    { "slide": "3-2", "text": "Local Path" },
+    { "slide": "3-3", "text": "External Path" },
+    
+    { "slide": "4-2", "text": "Anchors" }
+  ],
+  
+  
+  "images": [
+    { "slide": "5-2", "source": "yahiarefaiea" },
+    { "slide": "5-3 slide-5-4 slide-5-5 slide-5-6 slide-5-7", "source": "nucubuc" }
+  ],
+  
+  
+  "normal1": [
+    { "slide": "5-2", "text": "Follow me on Twitter for inspirations on :" },
+    { "slide": "5-3", "text": "You can view this workshop series slides on :" },
+    { "slide": "5-4", "text": "This workshop summary and class notes are" },
+    { "slide": "5-5", "text": "Ask me anything or Give me a feedback after" },
+    { "slide": "5-6", "text": "Cheers !" },
+    { "slide": "5-7", "text": "Nucubuc Modeling Agency ™" }
+  ],
+  
+  
+  "normal2": [
+    { "slide": "5-2 small", "text": "@yahiarefaiea" },
+    { "slide": "5-3 small", "text": "slides.nucubuc.com/wdw" },
+    { "slide": "5-4", "text": "available on GoogleDocs" },
+    { "slide": "5-5", "text": "the workshop, please ..." }
+  ]
+}
