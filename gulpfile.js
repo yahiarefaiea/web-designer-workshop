@@ -71,6 +71,7 @@ gulp.task('pug', function() {
 var babelSrc = [
   root+'/babel/lib/jquery-2.2.4.js',
   root+'/babel/molecules/spans.js',
+  root+'/babel/molecules/slides.js',
   root+'/babel/templates/workshop01.js',
   root+'/babel/templates/workshop02.js'
 ];
