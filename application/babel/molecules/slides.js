@@ -25,7 +25,7 @@ function changeSlide(dir) {
         $('.workshop').attr('data-slide', slides[index])
         $('.'+slides[index]).addClass('active')
       }
-    }, 1000)
+    }, 30000)
   }
   
   if (typeof cheers !== 'undefined') clearTimeout(cheers)
