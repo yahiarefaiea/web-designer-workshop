@@ -60,7 +60,8 @@ gulp.task('pug', function() {
       data: {
         pkg: JSON.parse(require('fs').readFileSync('package.json')),
         workshop01: JSON.parse(require('fs').readFileSync(root+'/data/workshop01.json')),
-        workshop02: JSON.parse(require('fs').readFileSync(root+'/data/workshop02.json'))
+        workshop02: JSON.parse(require('fs').readFileSync(root+'/data/workshop02.json')),
+        workshop03: JSON.parse(require('fs').readFileSync(root+'/data/workshop03.json'))
       }
      }))
     .pipe(gulp.dest(dest));

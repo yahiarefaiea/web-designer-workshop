@@ -1,0 +1,47 @@
+extends ../layouts/public
+
+block title
+  title #{workshop03.title}
+
+block content
+  .wrap.workshop#workshop03(data-slide="slide-first"): .container: .root
+    
+    //  TITLE1
+    #title1
+      each x in workshop03.title1
+        .h1(class="slide-"+x.slide) #{x.text}
+    
+    //  TITLE2
+    #title2
+      each x in workshop03.title2
+        .h1(class="slide-"+x.slide) #{x.text}
+    
+    //  HEADING1
+    #heading1
+      each x in workshop03.heading1
+        .h2(class="slide-"+x.slide) #{x.text}
+    
+    //  HEADING2
+    #heading2
+      each x in workshop03.heading2
+        .h2(class="slide-"+x.slide) #{x.text}
+    
+    //  SUBTITLE
+    #subtitle
+      each x in workshop03.subtitle
+        p(class="slide-"+x.slide) #{x.text}
+    
+    //  IMAGES
+    #images
+      each x in workshop03.images
+        img(class="slide-"+x.slide, src="includes/images/"+x.source+".png")
+    
+    //  NORMAL1
+    #normal1
+      each x in workshop03.normal1
+        p(class="slide-"+x.slide) #{x.text}
+    
+    //  NORMAL2
+    #normal2
+      each x in workshop03.normal2
+        p(class="slide-"+x.slide) #{x.text}

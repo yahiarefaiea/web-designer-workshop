@@ -1,0 +1,84 @@
+{
+  "title": "Workshop #3 - Web Designer Workshop",
+  
+  "title1": [
+    { "slide": "0", "text": "Getting Started as a" },
+    
+    { "slide": "2-1", "text": "Identifying using IDs" }
+  ],
+  
+  
+  "title2": [
+    { "slide": "greeting", "text": "Greeting !" },
+    
+    { "slide": "0", "text": "Web Designer" },
+    
+    { "slide": "1-1", "text": "Including" },
+    
+    { "slide": "break", "text": "Time for a Break !" },
+    
+    { "slide": "2-1", "text": "and Classes" },
+    
+    { "slide": "3-1", "text": "Semantic Elements" },
+    
+    { "slide": "assignment", "text": "The Assignment" },
+    
+    { "slide": "4-1", "text": "Thanks for having me !" }
+  ],
+  
+  
+  "heading1": [
+    { "slide": "2-2", "text": "Why you should always be" }
+  ],
+  
+  
+  "heading2": [
+    { "slide": "1-2", "text": "Images" },
+    { "slide": "1-3", "text": "Videos" },
+    { "slide": "1-4", "text": "Audios" },
+    
+    { "slide": "2-2", "text": "using IDs and Classes ?" },
+    { "slide": "2-3", "text": "What is the ID ?" },
+    { "slide": "2-4", "text": "What is the Class ?" },
+    { "slide": "2-5", "text": "Identifiers" },
+    
+    { "slide": "3-2", "text": "header" },
+    { "slide": "3-3", "text": "nav" },
+    { "slide": "3-4", "text": "article" },
+    { "slide": "3-5", "text": "footer" },
+    { "slide": "3-6", "text": "aside" },
+    { "slide": "3-7", "text": "main" },
+    { "slide": "3-8", "text": "section" }
+  ],
+  
+  
+  "subtitle": [
+    { "slide": "0", "text": "Workshop #3" },
+    
+    { "slide": "3-1", "text": "layout elements" }
+  ],
+  
+  
+  "images": [
+    { "slide": "4-2", "source": "yahiarefaiea" },
+    { "slide": "4-3 slide-4-4 slide-4-5 slide-4-6 slide-4-7", "source": "nucubuc" }
+  ],
+  
+  
+  "normal1": [
+    { "slide": "4-2", "text": "Follow me on Twitter for inspirations on :" },
+    { "slide": "4-3", "text": "You can view this workshop series slides on :" },
+    { "slide": "4-4", "text": "This workshop summary and class notes are" },
+    { "slide": "4-5", "text": "Ask me anything or Give me a feedback after" },
+    { "slide": "4-6", "text": "Cheers !" },
+    { "slide": "4-7", "text": "Nucubuc Modeling Agency ™" }
+  ],
+  
+  
+  "normal2": [
+    { "slide": "4-2 small", "text": "@yahiarefaiea" },
+    { "slide": "4-3 small", "text": "slides.nucubuc.com/wdw" },
+    { "slide": "4-4", "text": "available on GoogleDocs" },
+    { "slide": "4-5", "text": "the workshop, please ..." }
+  ]
+}

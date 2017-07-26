@@ -31,6 +31,7 @@ function changeSlide(dir) {
   if (typeof cheers !== 'undefined') clearTimeout(cheers)
   if($('.workshop').is('#workshop01') && active == 'slide-7-6') cheersSkip()  //  Very Stupid!
   if($('.workshop').is('#workshop02') && active == 'slide-5-6') cheersSkip()  //  Very Stupid!
+  if($('.workshop').is('#workshop03') && active == 'slide-4-6') cheersSkip()  //  Very Stupid!
 }
 
 
@@ -41,6 +42,7 @@ $(document).ready(function() {
   slides = []
   if($('.workshop').is('#workshop01')) slides = workshop01  //  Very Stupid!
   if($('.workshop').is('#workshop02')) slides = workshop02  //  Very Stupid!
+  if($('.workshop').is('#workshop03')) slides = workshop03  //  Very Stupid!
   
   
   //  SHIFT TO THE FIRST SLIDE ON PAGE LOAD
