@@ -73,7 +73,8 @@ var babelSrc = [
   root+'/babel/molecules/spans.js',
   root+'/babel/molecules/slides.js',
   root+'/babel/templates/workshop01.js',
-  root+'/babel/templates/workshop02.js'
+  root+'/babel/templates/workshop02.js',
+  root+'/babel/templates/workshop03.js'
 ];
 gulp.task('babel', function() {
   return gulp.src(babelSrc)
