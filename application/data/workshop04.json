@@ -1,0 +1,111 @@
+{
+  "title": "Workshop #4 - Web Designer Workshop",
+  
+  "title1": [
+    { "slide": "0", "text": "Getting Started as a" },
+    
+    { "slide": "3-1", "text": "How to improve your" }
+  ],
+  
+  
+  "title2": [
+    { "slide": "greeting", "text": "Greeting !" },
+    
+    { "slide": "0", "text": "Web Designer" },
+    
+    { "slide": "1-1", "text": "HTML Forms" },
+    { "slide": "1-2", "text": "Input" },
+    { "slide": "1-3", "text": "Input Type" },
+    { "slide": "1-4", "text": "Input Attribute" },
+    { "slide": "1-5", "text": "Textarea" },
+    { "slide": "1-6", "text": "Select and Option" },
+    { "slide": "1-7", "text": "Label" },
+    { "slide": "1-8", "text": "Form" },
+    
+    { "slide": "break", "text": "Time for a Break !" },
+    
+    { "slide": "2-1", "text": "Head" },
+    
+    { "slide": "3-1", "text": "wireframe and prototype ?" },
+    
+    { "slide": "assignment", "text": "The Assignment" },
+    
+    { "slide": "4-1", "text": "Thanks for having me !" }
+  ],
+  
+  
+  "heading1": [],
+  
+  
+  "heading2": [
+    { "slide": "1-3-1", "text": "Text" },
+    { "slide": "1-3-2", "text": "Email" },
+    { "slide": "1-3-3", "text": "Password" },
+    { "slide": "1-3-4", "text": "Search" },
+    { "slide": "1-3-5", "text": "Tel" },
+    { "slide": "1-3-6", "text": "Number" },
+    { "slide": "1-3-7", "text": "Date" },
+    { "slide": "1-3-8", "text": "Time" },
+    { "slide": "1-3-9", "text": "Url" },
+    { "slide": "1-3-10", "text": "Color" },
+    { "slide": "1-3-11", "text": "File" },
+    { "slide": "1-3-12", "text": "Range" },
+    { "slide": "1-3-13", "text": "Button" },
+    { "slide": "1-3-14", "text": "Reset" },
+    { "slide": "1-3-15", "text": "Submit" },
+    { "slide": "1-3-16", "text": "Radio" },
+    { "slide": "1-3-17", "text": "Checkbox" },
+    
+    { "slide": "1-4-1", "text": "Type" },
+    { "slide": "1-4-2", "text": "Name" },
+    { "slide": "1-4-3", "text": "Value" },
+    { "slide": "1-4-4", "text": "Placeholder" },
+    { "slide": "1-4-5", "text": "Required" },
+    { "slide": "1-4-6", "text": "Readonly" },
+    { "slide": "1-4-7", "text": "Disabled" },
+    { "slide": "1-4-8", "text": "Checked" },
+    { "slide": "1-4-9", "text": "Autocomplete" },
+    { "slide": "1-4-10", "text": "Autofocus" },
+    { "slide": "1-4-11", "text": "Minlength" },
+    { "slide": "1-4-12", "text": "Maxlength" },
+    { "slide": "1-4-13", "text": "Pattern" },
+    { "slide": "1-4-14", "text": "Min" },
+    { "slide": "1-4-15", "text": "Max" },
+    { "slide": "1-4-16", "text": "Step" },
+    
+    { "slide": "2-2", "text": "Title" },
+    { "slide": "2-3", "text": "Link" },
+    { "slide": "2-4", "text": "Style" },
+    { "slide": "2-5", "text": "Script" },
+    { "slide": "2-6", "text": "Meta" }
+  ],
+  
+  
+  "subtitle": [
+    { "slide": "0", "text": "Workshop #4" }
+  ],
+  
+  
+  "images": [
+    { "slide": "4-2", "source": "yahiarefaiea" },
+    { "slide": "4-3 slide-4-4 slide-4-5 slide-4-6 slide-4-7", "source": "nucubuc" }
+  ],
+  
+  
+  "normal1": [
+    { "slide": "4-2", "text": "Follow me on Twitter for inspirations on :" },
+    { "slide": "4-3", "text": "You can view this workshop series slides on :" },
+    { "slide": "4-4", "text": "This workshop summary and class notes are" },
+    { "slide": "4-5", "text": "Ask me anything or Give me a feedback after" },
+    { "slide": "4-6", "text": "Cheers !" },
+    { "slide": "4-7", "text": "Nucubuc Modeling Agency ™" }
+  ],
+  
+  
+  "normal2": [
+    { "slide": "4-2 small", "text": "@yahiarefaiea" },
+    { "slide": "4-3 small", "text": "slides.nucubuc.com/wdw" },
+    { "slide": "4-4", "text": "available on GoogleDocs" },
+    { "slide": "4-5", "text": "the workshop, please ..." }
+  ]
+}

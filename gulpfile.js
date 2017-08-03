@@ -61,7 +61,8 @@ gulp.task('pug', function() {
         pkg: JSON.parse(require('fs').readFileSync('package.json')),
         workshop01: JSON.parse(require('fs').readFileSync(root+'/data/workshop01.json')),
         workshop02: JSON.parse(require('fs').readFileSync(root+'/data/workshop02.json')),
-        workshop03: JSON.parse(require('fs').readFileSync(root+'/data/workshop03.json'))
+        workshop03: JSON.parse(require('fs').readFileSync(root+'/data/workshop03.json')),
+        workshop04: JSON.parse(require('fs').readFileSync(root+'/data/workshop04.json'))
       }
      }))
     .pipe(gulp.dest(dest));
@@ -75,7 +76,8 @@ var babelSrc = [
   root+'/babel/molecules/slides.js',
   root+'/babel/templates/workshop01.js',
   root+'/babel/templates/workshop02.js',
-  root+'/babel/templates/workshop03.js'
+  root+'/babel/templates/workshop03.js',
+  root+'/babel/templates/workshop04.js'
 ];
 gulp.task('babel', function() {
   return gulp.src(babelSrc)
