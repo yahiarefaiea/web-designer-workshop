@@ -1,0 +1,88 @@
+{
+  "title": "Workshop #5 - Web Designer Workshop",
+  
+  "title1": [
+    { "slide": "0", "text": "Getting Started as a" },
+    { "slide": "1-3", "text": "How can we use CSS" }
+  ],
+  
+  
+  "title2": [
+    { "slide": "greeting", "text": "Greeting !" },
+    
+    { "slide": "0", "text": "Web Designer" },
+    
+    { "slide": "1-1", "text": "CSS" },
+    { "slide": "1-2", "text": "CSS Syntax" },
+    { "slide": "1-3", "text": "in our HTML document?" },
+    
+    { "slide": "2-1", "text": "Selectors" },
+    
+    { "slide": "3-1", "text": "Basic Colors Workout for CSS" },
+    { "slide": "3-2", "text": "Typography" },
+    
+    { "slide": "break", "text": "Time for a Break !" },
+    
+    { "slide": "3-3", "text": "Shapes" },
+    
+    { "slide": "4-1", "text": "Thanks for having me !" }
+  ],
+  
+  
+  "heading1": [],
+  
+  
+  "heading2": [
+    { "slide": "1-3-1", "text": "Inline style" },
+    { "slide": "1-3-2", "text": "Internal stylesheet" },
+    { "slide": "1-3-3", "text": "External stylesheet" },
+    
+    { "slide": "3-1-1", "text": "HEX Value" },
+    { "slide": "3-1-2", "text": "RGB Value" },
+    { "slide": "3-1-3", "text": "Color Name Value" },
+    
+    { "slide": "3-2-1", "text": "Texts" },
+    { "slide": "3-2-2", "text": "Fonts" },
+    
+    { "slide": "3-3-1", "text": "Background" },
+    { "slide": "3-3-2", "text": "Display" },
+    { "slide": "3-3-3", "text": "Dimension" },
+    { "slide": "3-3-4", "text": "Float" },
+    { "slide": "3-3-5", "text": "Box Model" },
+    { "slide": "3-3-6", "text": "Position" },
+    { "slide": "3-3-7", "text": "Border Radius" },
+    { "slide": "3-3-8", "text": "Opacity" },
+    { "slide": "3-3-9", "text": "Shadows" }
+  ],
+  
+  
+  "subtitle": [
+    { "slide": "0", "text": "Workshop #5" },
+    
+    { "slide": "1-1", "text": "Cascading Style Sheets" }
+  ],
+  
+  
+  "images": [
+    { "slide": "4-2", "source": "yahiarefaiea" },
+    { "slide": "4-3 slide-4-4 slide-4-5 slide-4-6 slide-4-7", "source": "nucubuc" }
+  ],
+  
+  
+  "normal1": [
+    { "slide": "4-2", "text": "Follow me on Twitter for inspirations on :" },
+    { "slide": "4-3", "text": "You can view this workshop series slides on :" },
+    { "slide": "4-4", "text": "This workshop summary and class notes are" },
+    { "slide": "4-5", "text": "Ask me anything or Give me a feedback after" },
+    { "slide": "4-6", "text": "Cheers !" },
+    { "slide": "4-7", "text": "Nucubuc Modeling Agency ™" }
+  ],
+  
+  
+  "normal2": [
+    { "slide": "4-2 small", "text": "@yahiarefaiea" },
+    { "slide": "4-3 small", "text": "slides.nucubuc.com/wdw" },
+    { "slide": "4-4", "text": "available on GoogleDocs" },
+    { "slide": "4-5", "text": "the workshop, please ..." }
+  ]
+}

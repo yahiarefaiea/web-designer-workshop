@@ -62,7 +62,8 @@ gulp.task('pug', function() {
         workshop01: JSON.parse(require('fs').readFileSync(root+'/data/workshop01.json')),
         workshop02: JSON.parse(require('fs').readFileSync(root+'/data/workshop02.json')),
         workshop03: JSON.parse(require('fs').readFileSync(root+'/data/workshop03.json')),
-        workshop04: JSON.parse(require('fs').readFileSync(root+'/data/workshop04.json'))
+        workshop04: JSON.parse(require('fs').readFileSync(root+'/data/workshop04.json')),
+        workshop05: JSON.parse(require('fs').readFileSync(root+'/data/workshop05.json'))
       }
      }))
     .pipe(gulp.dest(dest));
@@ -77,7 +78,8 @@ var babelSrc = [
   root+'/babel/templates/workshop01.js',
   root+'/babel/templates/workshop02.js',
   root+'/babel/templates/workshop03.js',
-  root+'/babel/templates/workshop04.js'
+  root+'/babel/templates/workshop04.js',
+  root+'/babel/templates/workshop05.js'
 ];
 gulp.task('babel', function() {
   return gulp.src(babelSrc)
