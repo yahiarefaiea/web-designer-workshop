@@ -85,13 +85,14 @@
       transform: translateY(baseline*2)
 
 
-//  IMAGES
-.workshop #images
-  overflow: visible
+//  IMAGES, REACTIONS
+.workshop #images,
+.workshop #reactions
   top: 50%
   height: baseline*8
   margin-top: -( (baseline*8/2) + (baseline*2) )
-  > img
+  > img,
+  > svg
     display: block
     {align}: 50%
     width: auto
@@ -102,6 +103,28 @@
     &.active
       top: 0
       opacity: 1
+
+.workshop #images
+  overflow: visible
+
+.workshop #reactions
+  > svg > *
+    fill: white
+    stroke: white
+    stroke-width: 4
+    stroke-linecap: round
+    &#mouth
+      fill: none
+
+.workshop[data-slide='slide-5-3'],
+.workshop[data-slide='slide-5-4'],
+.workshop[data-slide='slide-5-5'],
+.workshop[data-slide='slide-5-6'],
+.workshop[data-slide='slide-5-7'],
+.workshop[data-slide='slide-5-8'],
+.workshop[data-slide='slide-5-9']
+  #reactions > svg
+    opacity: 1
 
 
 //  NORMAL

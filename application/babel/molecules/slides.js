@@ -29,11 +29,13 @@ function changeSlide(dir) {
   }
   
   if (typeof cheers !== 'undefined') clearTimeout(cheers)
+  if($('.workshop').is('#workshop05')) reactionsCheck()
+  
   if($('.workshop').is('#workshop01') && active == 'slide-7-6') cheersSkip()  //  Very Stupid!
   if($('.workshop').is('#workshop02') && active == 'slide-5-6') cheersSkip()  //  Very Stupid!
   if($('.workshop').is('#workshop03') && active == 'slide-4-6') cheersSkip()  //  Very Stupid!
   if($('.workshop').is('#workshop04') && active == 'slide-4-6') cheersSkip()  //  Very Stupid!
-  if($('.workshop').is('#workshop05') && active == 'slide-4-6') cheersSkip()  //  Very Stupid!
+  if($('.workshop').is('#workshop05') && active == 'slide-5-8') cheersSkip()  //  Very Stupid!
 }
 
 

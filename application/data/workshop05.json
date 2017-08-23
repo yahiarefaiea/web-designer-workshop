@@ -3,7 +3,11 @@
   
   "title1": [
     { "slide": "0", "text": "Getting Started as a" },
-    { "slide": "1-3", "text": "How can we use CSS" }
+    
+    { "slide": "1-3", "text": "How can we use CSS" },
+    
+    { "slide": "4", "text": "Advanced Web" },
+    { "slide": "4-3-1", "text": "What are we gonna" }
   ],
   
   
@@ -25,7 +29,12 @@
     
     { "slide": "3-3", "text": "Shapes" },
     
-    { "slide": "4-1", "text": "Thanks for having me !" }
+    { "slide": "4", "text": "Designer Workshop" },
+    { "slide": "4-2-1", "text": "the Requirements" },
+    { "slide": "4-3-1", "text": "be taking ?" },
+    { "slide": "4-4-2", "text": "30% OFF" },
+    
+    { "slide": "5-1", "text": "Thanks for having me !" }
   ],
   
   
@@ -52,37 +61,78 @@
     { "slide": "3-3-6", "text": "Position" },
     { "slide": "3-3-7", "text": "Border Radius" },
     { "slide": "3-3-8", "text": "Opacity" },
-    { "slide": "3-3-9", "text": "Shadows" }
+    { "slide": "3-3-9", "text": "Shadows" },
+    
+    { "slide": "4-1-1", "text": "2 Hours a day" },
+    { "slide": "4-1-2", "text": "2 Days a week" },
+    { "slide": "4-1-3", "text": "For 1,5 months" },
+    { "slide": "4-1-4", "text": "12 Workshop" },
+    { "slide": "4-1-5", "text": "Starts @ Wednesday, September 22" },
+    { "slide": "4-1-7", "text": "+4 Members to start the series" },
+    
+    { "slide": "4-2-2", "text": "4 Resources to read" },
+    { "slide": "4-2-6", "text": "2 Completed projects" },
+    { "slide": "4-2-7", "text": "Up-to 2-3 free hours a day" },
+    
+    { "slide": "4-3-4", "text": "2 Small projects" },
+    { "slide": "4-3-5", "text": "1 Big Project" },
+    
+    { "slide": "4-4-1", "text": "This workshop costs 30,000 s.p" },
+    { "slide": "4-4-3", "text": "the Harry Potter Challenge" }
   ],
   
   
   "subtitle": [
     { "slide": "0", "text": "Workshop #5" },
     
-    { "slide": "1-1", "text": "Cascading Style Sheets" }
+    { "slide": "1-1", "text": "Cascading Style Sheets" },
+    
+    { "slide": "4-1-4", "text": "( 24 hours total )" },
+    { "slide": "4-4-2", "text": "For 5 people" },
+    { "slide": "4-4-3", "text": "15% OFF" }
   ],
   
   
   "images": [
-    { "slide": "4-2", "source": "yahiarefaiea" },
-    { "slide": "4-3 slide-4-4 slide-4-5 slide-4-6 slide-4-7", "source": "nucubuc" }
+    { "slide": "nucubuc", "source": "nucubuc" },
+    
+    { "slide": "4-1-6", "source": "unlimitedhorizons" },
+    { "slide": "4-2-3", "source": "marksheet" },
+    { "slide": "4-2-4", "source": "hcih" },
+    { "slide": "4-2-5", "source": "w3schools" },
+    
+    { "slide": "4-3-2", "source": "photoshop" },
+    { "slide": "4-3-3", "source": "javascript" },
+    
+    { "slide": "5-2", "source": "yahiarefaiea" },
+    { "slide": "5-3 slide-5-4 slide-5-5 slide-5-6 slide-5-7 slide-5-8 slide-5-9", "source": "nucubuc_empty" }
   ],
   
   
   "normal1": [
-    { "slide": "4-2", "text": "Follow me on Twitter for inspirations on :" },
-    { "slide": "4-3", "text": "You can view this workshop series slides on :" },
-    { "slide": "4-4", "text": "This workshop summary and class notes are" },
-    { "slide": "4-5", "text": "Ask me anything or Give me a feedback after" },
-    { "slide": "4-6", "text": "Cheers !" },
-    { "slide": "4-7", "text": "Nucubuc Modeling Agency ™" }
+    { "slide": "nucubuc", "text": "Nucubuc Modeling Agency ™" },
+    
+    { "slide": "4-1-6", "text": "Unlimited Horizons" },
+    { "slide": "4-2-3", "text": "MarkSheet" },
+    { "slide": "4-2-4", "text": "HTML & CSS Is Hard" },
+    { "slide": "4-2-5", "text": "W3Schools" },
+    
+    { "slide": "4-3-2", "text": "Adobe Photoshop for web design" },
+    { "slide": "4-3-3", "text": "Intro to JavaScript" },
+    
+    { "slide": "5-2", "text": "This was me all the time !" },
+    { "slide": "5-3", "text": "Bad" },
+    { "slide": "5-4", "text": "Unhappy" },
+    { "slide": "5-5", "text": "Natural" },
+    { "slide": "5-6", "text": "Satisfied" },
+    { "slide": "5-7", "text": "Amazed" },
+    
+    { "slide": "5-8", "text": "Cheers !" },
+    { "slide": "5-9", "text": "Nucubuc Modeling Agency ™" }
   ],
   
   
   "normal2": [
-    { "slide": "4-2 small", "text": "@yahiarefaiea" },
-    { "slide": "4-3 small", "text": "slides.nucubuc.com/wdw" },
-    { "slide": "4-4", "text": "available on GoogleDocs" },
-    { "slide": "4-5", "text": "the workshop, please ..." }
+    { "slide": "5-2 small", "text": "Yahia Refaiea" }
   ]
 }
